@@ -1,0 +1,14 @@
+{
+  "name": "栖账 · 本地记账",
+  "short_name": "栖账",
+  "description": "一款完全离线、数据只保存在本地的个人记账应用",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5f5fa",
+  "theme_color": "#168357",
+  "orientation": "portrait",
+  "lang": "zh-CN",
+  "icons": [
+    { "src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

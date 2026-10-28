@@ -1,0 +1,22 @@
+{
+  "name": "qizhang-offline-ledger",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "栖账 - 本地离线个人记账应用",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node --check app.js && node --check data.js && node scripts/check.mjs",
+    "android:init": "npm run build && npx cap add android",
+    "android:sync": "npm run build && npx cap sync android",
+    "android:open": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3"
+  }
+}

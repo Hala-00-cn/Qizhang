@@ -1,0 +1,12 @@
+{
+  "appId": "com.qizhang.offline",
+  "appName": "栖账",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": false,
+    "backgroundColor": "#f5f5fa"
+  }
+}
